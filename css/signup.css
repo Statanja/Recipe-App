@@ -1,0 +1,176 @@
+.main-outer{
+    width: 100%;
+    height: 100vh;
+    background-color:#95a5a6 ;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.round{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 100%;
+}
+.top-round-1{
+
+    background-color: #C31814;
+    top: -60px;
+    left: -60px;
+    z-index: 1;
+
+}
+.top-round-2{
+
+    background-color: #E43935;
+    top: -50px;
+    left: -50px;
+
+}
+
+.bottom-round-1{
+
+    background-color: #E43935;
+    bottom: -60px;
+    right: -60px;
+}
+.bottom-round-2{
+
+    background-color: #C31814;
+    bottom: -70px;
+    right: -70px;
+}
+/*Start login outer*/
+.inner{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.context{
+    flex: 1;
+}
+/*End login outer*/
+
+/*Right side area*/
+.right{
+    background-image: url("https://img.freepik.com/free-photo/blur-coffee-cafe-shop-restaurant-with-bokeh-background_1421-472.jpg?w=900&t=st=1668016972~exp=1668017572~hmac=07637e670c7ad4e549def8fc35c311efcd628215ec8c9a74e9c3468c9a25b9da");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+}
+.logo>img{
+    width: 100px;
+    height: auto;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.tittle{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.data{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+.desc{
+    color: white;
+    text-align: justify;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bottom-data{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.bottom-data>p{
+    color: white;
+    padding: 0 20px;
+}
+/*Right side area*/
+/*left side area*/
+.data-wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    overflow: auto;
+}
+.welcome-text{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/*left side area*/
+.logo-name-outer{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.login-component-outer{
+    width: 100%;
+    height: 50px;
+
+}
+.col-12{
+    margin-bottom: 20px;
+
+}
+.btn{
+    width: 100%;
+}
+.separate-outer{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.separate-outer >  p{
+    margin: 0;
+}
+.line{
+    width: 40%;
+    height: 1px;
+    border: 1px solid black;
+}
+.sign-up-text:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+/*left side area*/
